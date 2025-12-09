@@ -15,9 +15,9 @@
 function doubleEachCharacter(str) {
     let result = '';
     for (let i = 0; i < str.length; i++) {
-        let symb = str[i];
-        result += symb + symb;
+        let symbol = str[i];
+        result += symbol + symbol;
 }
 return result;
 }
-console.log(doubleEachCharacter('helo'));
+console.log(doubleEachCharacter('hello'));
